@@ -1,0 +1,12 @@
+CARA MENJALANKAN WEBSITE DENGAN VS CODE LIVE SERVER (TANPA NPM / TANPA BACKEND API)
+
+1. Ekstrak ZIP ini.
+2. Buka folder papaddita di Visual Studio Code.
+3. Pastikan ekstensi Live Server sudah terpasang. Jika belum, buka Extensions (Ctrl+Shift+X), cari “Live Server”, lalu install.
+4. Di Explorer VS Code, klik kanan file index.html.
+5. Pilih “Open with Live Server”.
+6. Browser akan membuka alamat localhost (biasanya http://127.0.0.1:5500/index.html).
+
+Tidak perlu menjalankan npm install atau npm run dev. Script halaman utama menggunakan JavaScript ES modules langsung dari folder js/.
+
+Catatan: fitur komentar/ucapan online dinonaktifkan karena tidak memakai backend API. Ucapan tidak disimpan/dikirim ke server. Beberapa font/library eksternal yang memakai CDN masih memerlukan koneksi internet. dashboard.html masih merupakan panel admin lama yang memerlukan backend; jangan digunakan untuk mode lokal ini.
